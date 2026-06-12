@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { BullModule } from '@nestjs/bullmq';
-import { HelloModule } from './hello/hello.module';
+import { HelloModule } from './modules/hello/hello.module';
 import { ConfigModule } from '@nestjs/config';
 import { validateEnv } from './common/config/env';
 
